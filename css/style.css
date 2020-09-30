@@ -1,0 +1,69 @@
+.table td, .table th
+{
+background-color: #e3e2df;
+
+}
+
+.feed
+{
+padding: 15px 0;
+color: white;
+border-radius: 50px;
+text-align: center;
+margin: 0px 10px 90px 10px;
+}
+
+.err
+{
+background-color: #c13e3e;
+}
+
+.succ
+{
+background-color: #348634;
+}
+
+#booked
+{
+background-color: #9a1750;
+}
+
+#unbooked
+{
+background-color: #e3afbc;
+}
+
+#bookedbyyou
+{
+background-color: #ee4c7c;
+}
+
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #fff;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 18px;
+    border:1px solid #ecf0f1;
+    background:#1abc9c;
+    padding:5px;
+	width: 300px;
+	margin: 25px 0;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+input[type="date"], focus {
+    color: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
